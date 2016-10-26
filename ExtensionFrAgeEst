@@ -1,0 +1,2876 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY core "http://vivoweb.org/ontology/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-37 "http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-37="http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:core="http://vivoweb.org/ontology/core#">
+    <Ontology rdf:about="http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#description -->
+
+    <AnnotationProperty rdf:about="&core;description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <ObjectProperty rdf:about="&obo;BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <ObjectProperty rdf:about="&obo;BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <ObjectProperty rdf:about="&obo;BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <ObjectProperty rdf:about="&obo;IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <ObjectProperty rdf:about="&obo;OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <ObjectProperty rdf:about="&obo;OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
+
+    <ObjectProperty rdf:about="&obo;OBI_0000417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <ObjectProperty rdf:about="&obo;RO_0000053"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#BFO_0000054 -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-37;BFO_0000054"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#OBI_0000999 -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-37;OBI_0000999"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#RO_0000059 -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-37;RO_0000059"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#isDepicted -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-37;isDepicted"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#isMentioned -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-37;isMentioned"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#hasValue -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-37;hasValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <Class rdf:about="&obo;OBI_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->
+
+    <Class rdf:about="&obo;OBI_0000067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <Class rdf:about="&obo;OBI_0000070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000260 -->
+
+    <Class rdf:about="&obo;OBI_0000260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000338 -->
+
+    <Class rdf:about="&obo;OBI_0000338"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
+
+    <Class rdf:about="&obo;OBI_0000339"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000471 -->
+
+    <Class rdf:about="&obo;OBI_0000471"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
+
+    <Class rdf:about="&obo;OBI_0000659"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000684 -->
+
+    <Class rdf:about="&obo;OBI_0000684"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->
+
+    <Class rdf:about="&obo;OBI_0000938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001892 -->
+
+    <Class rdf:about="&obo;OBI_0001892"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001896 -->
+
+    <Class rdf:about="&obo;OBI_0001896"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+    <Class rdf:about="&obo;OBI_0001930"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
+
+    <Class rdf:about="&obo;OBI_0100051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
+
+    <Class rdf:about="&obo;OBI_0200000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
+
+    <Class rdf:about="&obo;OBI_0200166"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <Class rdf:about="&obo;OBI_0500000"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/AcademicArticle -->
+
+    <Class rdf:about="http://purl.org/ontology/bibo/AcademicArticle"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Book -->
+
+    <Class rdf:about="http://purl.org/ontology/bibo/Book"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalInventory -->
+
+    <Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalMaterialRequirement -->
+
+    <Class rdf:about="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalMaterialSpecification -->
+
+    <Class rdf:about="http://w3id.org/rdfbones/core#SkeletalMaterialSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRange -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRange">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaCoronoidea1">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaCoronoidea2">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaCoronoidea3">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaLambdoidea1">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaLambdoidea2">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaLambdoidea3">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaSagittalis1">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaSagittalis2">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaSagittalis3">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeRangeSuturaSagittalis4 -->
+
+    <Class rdf:about="&untitled-ontology-37;AgeRangeSuturaSagittalis4">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;AgeRange"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone (20th edition of Gray&apos;s Anatomy 1918).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone. It is one of the sutures that comprises the pterion (20th edition of Gray&apos;s Anatomy 1918).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaCoronoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaCoronoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaCoronoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaLambdoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaLambdoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaLambdoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaSagittalis1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaSagittalis2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaSagittalis3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Assay.SuturaSagittalis4 -->
+
+    <Class rdf:about="&untitled-ontology-37;Assay.SuturaSagittalis4">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000055"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;SutureScore"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <core:description>The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</core:description>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSphenofrontalSuture"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSphenoparietalSuture"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaCoronoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea1"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaCoronoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea2"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaCoronoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea3"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaLambdoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea1"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaLambdoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea2"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaLambdoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea3"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaSagittalis1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis1"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaSagittalis2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis2"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformation.Fr.AgeEst.SuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;DataTransformation.Fr.AgeEst.SuturaSagittalis3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000417"/>
+                <hasValue rdf:resource="&untitled-ontology-37;DataTransformationObjective.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <onClass rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis3"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DegreeOfSutureClosure -->
+
+    <Class rdf:about="&untitled-ontology-37;DegreeOfSutureClosure">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;IAO_0000032"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;hasValue"/>
+                <someValuesFrom rdf:resource="&xsd;float"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSphenofrontalSuture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSphenoparietalSuture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaCoronoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaCoronoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaCoronoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaLambdoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaLambdoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaLambdoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaSagittalis1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaSagittalis2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaSagittalis3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EntirePartOfSuturaSagittalis4 -->
+
+    <Class rdf:about="&untitled-ontology-37;EntirePartOfSuturaSagittalis4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#EstimatingAgeBasedOnDegreeOfAgeRange -->
+
+    <Class rdf:about="&untitled-ontology-37;EstimatingAgeBasedOnDegreeOfAgeRange">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000338"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;isMentioned"/>
+                <hasValue rdf:resource="&untitled-ontology-37;&apos;Vallois_1937&apos;"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;AgeRange"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;isMentioned"/>
+                <hasValue rdf:resource="&untitled-ontology-37;&apos;Hermann_et_al_1990&apos;"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#FMA_46565 -->
+
+    <Class rdf:about="&untitled-ontology-37;FMA_46565"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#IAO_0000032 -->
+
+    <Class rdf:about="&untitled-ontology-37;IAO_0000032"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Investigation.FrAgeEst -->
+
+    <Class rdf:about="&untitled-ontology-37;Investigation.FrAgeEst">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;EstimatingAgeBasedOnDegreeOfAgeRange"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Planning.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <hasValue rdf:resource="&untitled-ontology-37;StudyDesign.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#LabelForSutureScore -->
+
+    <Class rdf:about="&untitled-ontology-37;LabelForSutureScore">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-37;OBI_0000963"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#OBI_0000272 -->
+
+    <Class rdf:about="&untitled-ontology-37;OBI_0000272"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#OBI_0000963 -->
+
+    <Class rdf:about="&untitled-ontology-37;OBI_0000963"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#OBI_0001933 -->
+
+    <Class rdf:about="&untitled-ontology-37;OBI_0001933"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Plan.FrAgeEst -->
+
+    <Class rdf:about="&untitled-ontology-37;Plan.FrAgeEst">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000260"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;RO_0000059"/>
+                <hasValue rdf:resource="&untitled-ontology-37;StudyDesign.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;BFO_0000054"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;StudyDesignExecution.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SkeletalMaterialSpecification.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Planning.FrAgeEst -->
+
+    <Class rdf:about="&untitled-ontology-37;Planning.FrAgeEst">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000339"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <hasValue rdf:resource="&untitled-ontology-37;StudyDesign.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialSpecification.FrAgeEst -->
+
+    <Class rdf:about="&untitled-ontology-37;SkeletalMaterialSpecification.FrAgeEst">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialSpecification"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaCoronoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaCoronoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaCoronoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaLambdoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaLambdoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaLambdoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaSagittalis1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaSagittalis2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaSagittalis3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Specimen.SuturaSagittalis4 -->
+
+    <Class rdf:about="&untitled-ontology-37;Specimen.SuturaSagittalis4">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;RO_0000053"/>
+                <hasValue rdf:resource="&untitled-ontology-37;AgeEstimation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SphenofrontalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SphenoparietalSuture -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea1 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea2 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea3 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis1 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis1">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis2 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis3 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis3">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis4 -->
+
+    <Class rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis4">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000293"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;EntirePartOfSuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;OBI_0000299"/>
+                <allValuesFrom rdf:resource="&untitled-ontology-37;Specimen.SuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+                <hasValue rdf:resource="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#StudyDesignExecution.FrAgeEst -->
+
+    <Class rdf:about="&untitled-ontology-37;StudyDesignExecution.FrAgeEst">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000471"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaSagittalis2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SphenofrontalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaSagittalis1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaSagittalis4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SphenoparietalSuture"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000050"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Investigation.FrAgeEst"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;Assay.SuturaCoronoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&obo;BFO_0000051"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SutureScore -->
+
+    <Class rdf:about="&untitled-ontology-37;SutureScore">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-37;OBI_0000999"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-37;LabelForSutureScore"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#&apos;Hermann_et_al_1990&apos; -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;&apos;Hermann_et_al_1990&apos;">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+        <rdfs:comment>Herrmann, B.; Gruppe, G.; Hummel, S.; Piepenbrink, H.; Schutkowski,H.: Prähistorische Anthropologie. Leitfaden der Feld- und Labormethoden (Berlin/Heidelberg 1990), 67, Abb. 3.2.1.8.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#&apos;Vallois_1937&apos; -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;&apos;Vallois_1937&apos;">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <rdfs:comment>Vallois, H.V.: La duree de la vie chez l&apos;homme fossile. (1937), L&apos;Anthropologie, Vol. 47, Dec.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#0-5 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;0-5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#20-29 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;20-29">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#33-42 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;33-42">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#35-44 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;35-44">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#38-47 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;38-47">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#45-54 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;45-54">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#50-59 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;50-59">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenofrontalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#55-64 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;55-64">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenoparietalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea2"/>
+        <rdfs:label>55-64</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#65-74 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;65-74">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#70 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;70">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AgeEstimation -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AgeEstimation">
+        <rdf:type rdf:resource="&obo;OBI_0000067"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AlexanderEckerCollectionDataEntryForm -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AlexanderEckerCollectionDataEntryForm">
+        <rdf:type rdf:resource="&untitled-ontology-37;OBI_0000272"/>
+        <rdfs:label>AlexanderEckerCollectionDataEntryForm</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SphenofrontalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SphenofrontalSuture">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SphenofrontalSuture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SphenoparietalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SphenoparietalSuture">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SphenoparietalSuture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaCoronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaCoronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaCoronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaCoronoidea3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaLambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaLambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaLambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaLambdoidea3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaSagittalis1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaSagittalis1">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaSagittalis1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaSagittalis2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaSagittalis2">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaSagittalis2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaSagittalis3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaSagittalis3">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaSagittalis3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#AssaySpecification.SuturaSagittalis4 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;AssaySpecification.SuturaSagittalis4">
+        <rdf:type rdf:resource="&obo;OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;AssaySpecification.SuturaSagittalis4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Closed -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;Closed">
+        <rdf:type rdf:resource="&untitled-ontology-37;SutureScore"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#DataTransformationObjective.FrAgeEst -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;DataTransformationObjective.FrAgeEst">
+        <rdf:type rdf:resource="&obo;OBI_0200166"/>
+        <rdfs:label>DataTransformationObjective.FrAgeEst</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Fusion -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;Fusion">
+        <rdf:type rdf:resource="&untitled-ontology-37;SutureScore"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#NA -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;NA">
+        <rdf:type rdf:resource="&untitled-ontology-37;SutureScore"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#Open -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;Open">
+        <rdf:type rdf:resource="&untitled-ontology-37;SutureScore"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SphenofrontalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SphenofrontalSuture">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SphenofrontalSuture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SphenoparietalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SphenoparietalSuture">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SphenoparietalSuture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaCoronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaCoronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaCoronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaCoronoidea3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaLambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaLambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaLambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaLambdoidea3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaSagittalis1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaSagittalis2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaSagittalis3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SkeletalMaterialRequirement.SuturaSagittalis4 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SkeletalMaterialRequirement.SuturaSagittalis4">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst">
+        <rdf:type rdf:resource="&obo;OBI_0001892"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SphenofrontalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SphenofrontalSuture">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SphenoparietalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SphenoparietalSuture">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaCoronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaCoronoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaCoronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaCoronoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaCoronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaCoronoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaLambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaLambdoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaLambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaLambdoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaLambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaLambdoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaSagittalis1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaSagittalis1">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaSagittalis2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaSagittalis2">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaSagittalis3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaSagittalis3">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionObjective.SuturaSagittalis4 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionObjective.SuturaSagittalis4">
+        <rdf:type rdf:resource="&obo;OBI_0000684"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Coronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Coronoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Coronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Coronoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Coronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Coronoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Lambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Lambdoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Lambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Lambdoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.Lambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.Lambdoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SphenofrontalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SphenofrontalSuture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SphenoparietalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SphenoparietalSuture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaCoronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaCoronoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaLambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaLambdoidea3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#SpecimenCollectionProcess.SuturaSagittalis4 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;SpecimenCollectionProcess.SuturaSagittalis4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#StudyDesign.FrAgeEst -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;StudyDesign.FrAgeEst">
+        <rdf:type rdf:resource="&obo;OBI_0500000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SphenofrontalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SphenofrontalSuture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SphenoparietalSuture -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SphenoparietalSuture">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaCoronoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaCoronoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaCoronoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaCoronoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaCoronoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaCoronoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaLambdoidea1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaLambdoidea1">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaLambdoidea2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaLambdoidea2">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaLambdoidea3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaLambdoidea3">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaSagittalis1 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaSagittalis1">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaSagittalis2 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaSagittalis2">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaSagittalis3 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaSagittalis3">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#ValueSpecification.SuturaSagittalis4 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;ValueSpecification.SuturaSagittalis4">
+        <rdf:type rdf:resource="&obo;OBI_0001930"/>
+        <untitled-ontology-37:OBI_0000999 rdf:resource="&untitled-ontology-37;complete"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a29 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a29">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis3"/>
+        <rdfs:label>&gt;29</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a42 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a42">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea3"/>
+        <rdfs:label>&gt;42</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a44 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a44">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis2"/>
+        <rdfs:label>&gt;44</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a47 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a47">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis4"/>
+        <rdfs:label>&gt;47</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a54 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a54">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea1"/>
+        <rdfs:label>&gt;54</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a59 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a59">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenofrontalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis1"/>
+        <rdfs:label>&gt;59</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a64 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a64">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenoparietalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea2"/>
+        <rdfs:label>&gt;64</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a70 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a70">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea2"/>
+        <rdfs:label>&gt;70</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#a74 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;a74">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea1"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea3"/>
+        <rdfs:label>&gt;70</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#complete -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;complete"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u20 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u20">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis3"/>
+        <rdfs:label>&lt;20</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u33 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u33">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea3"/>
+        <rdfs:label>&lt;33</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u35 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u35">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis2"/>
+        <rdfs:label>&lt;35</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u38 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u38">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis4"/>
+        <rdfs:label>&lt;38</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u45 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u45">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea1"/>
+        <rdfs:label>&lt;45</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u50 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u50">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenofrontalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaSagittalis1"/>
+        <rdfs:label>&lt;50</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u55 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u55">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSphenoparietalSuture"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea2"/>
+        <rdfs:label>&lt;55</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u65 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u65">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea1"/>
+        <rdfs:label>&lt;65</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37#u70 -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-37;u70">
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaCoronoidea2"/>
+        <rdf:type rdf:resource="&untitled-ontology-37;AgeRangeSuturaLambdoidea3"/>
+        <rdfs:label>&lt;70</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
